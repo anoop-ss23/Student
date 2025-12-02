@@ -1,34 +1,45 @@
-#Student Dashboard
-Overview
+Student Profile Dashboard
 
-Student Dashboard is a simple web app to manage students. You can view, add, and check profiles of students. Data is stored in the browser using localStorage, so it persists after page reloads. Built with HTML, CSS, and JavaScript.
+A very simple web-based Student Profile Dashboard built with HTML, CSS, and JavaScript. This project demonstrates a basic interactive webpage where a student’s profile can be displayed in a popup modal and new students can be added dynamically.
 
-#Features
+Features
 
-View Students: List all students with a Profile button.
+Displays a student's basic profile (name, course, skills).
 
-Profile Popup: Shows name, course, and skills.
+A "Profile" button opens a popup with full profile details.
 
-Add Student: Add new student with name, course, and skills .
+A "+ Add Student" button opens a popup to add a new student.
 
-Persistent Storage: Students saved in localStorage.
+Popup can be closed using a close button (×).
 
-Open index.html in a browser.
+Responsive design that works on mobile devices.
 
-Click Profile to view details.
+Students data is stored in localStorage to persist after page reloads.
 
-Click + Add Student, fill form, and save.
+Files Included
 
-Students automatically appear in the list.
+index.html – Main HTML file containing the page structure and popups.
 
-Files
+style.css – CSS file for styling the dashboard, student list, and popup modals.
 
-index.html – main page and popups.
+script.js – JavaScript file to handle rendering students, popup show/hide, and adding new students.
 
-style.css – styling for dashboard and popups.
+How to Run
 
-script.js – handles rendering, adding, and profile popups.
+Open index.html in a web browser.
 
-Technologies
+Click the "Profile" button next to a student to view their details.
 
-HTML5, CSS3, JavaScript
+Click the "+ Add Student" button to add a new student.
+
+Fill in the details in the popup and click Save Student.
+
+Click the × button to close any popup.
+
+Technologies Used
+
+HTML – Structure of the webpage
+
+CSS – Styling and layout
+
+JavaScript – Student rendering, popup interaction, and localStorage
