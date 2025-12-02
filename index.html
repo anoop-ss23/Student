@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Student Dashboard</h1>
+</header>
+
+<main class="container">
+
+    <section class="student-list">
+        <h2>Students</h2>
+
+        <button id="addStudentBtn" class="add-btn">+ Add Student</button>
+
+        <ul id="studentList"></ul>
+
+    </section>
+
+</main>
+
+<div id="profilePopup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closeProfilePopup()">&times;</span>
+
+        <h2 id="popupName"></h2>
+        <p><strong>Course:</strong> <span id="popupCourse"></span></p>
+
+        <h3>Skills</h3>
+        <ul id="popupSkills"></ul>
+    </div>
+</div>
+
+<div id="addPopup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closeAddPopup()">&times;</span>
+
+        <h2>Add New Student</h2>
+
+        <input type="text" id="nameInput" placeholder="Enter Name">
+        <input type="text" id="courseInput" placeholder="Enter Course">
+        <input type="text" id="skillsInput" placeholder="Enter Skills (comma-separated)">
+
+        <button id="saveStudentBtn" class="save-btn">Save Student</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
